@@ -9,15 +9,24 @@
 </head>
 
 <body>
-    <h2>HTML Forms</h2>
+    <main>
+        <form id="form">
+            <label for="name">Name:</label>
+            <input id="nameInput" type="text" value="Bilal">
+            <br>
+            <label for="email">Email:</label>
+            <input id="emailInput" type="text" value="bilal.fawaz@student.ehb.be">
+            <br>
+            <label for="order">Order:</label>
+            <input id="orderInput" type="text" value="Bilal Fawaz">
+            <br>
+            <input type="submit" value="Submit">
 
-    <form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+        </form>
+        <section id="container">
+
+        </section>
+    </main>
 
     <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 </body>
