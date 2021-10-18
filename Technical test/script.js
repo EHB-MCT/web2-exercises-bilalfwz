@@ -1,3 +1,8 @@
+//Api= https://elephant-api.herokuapp.com/elephants//
+
+// Include this extension on Google Chrome to make the Api work
+// = https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=en-US
+
 "use strict"
 
 async function getRandomArticle() {
@@ -9,7 +14,7 @@ async function getRandomArticle() {
             let info = data[0]
             content.innerHTML = `
     <h1> ${info.name}</h1>
-    <p> ${info.affiliation}</p>
+    <h3> ${info.affiliation}</h3>
     <img src="${info.image}" width="600">
     <p> ${info.note}</p>`
 
