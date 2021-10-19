@@ -1,3 +1,5 @@
+"use strict"
+
 class Team {
     constructor(teamname, trainer, roster)
     this.teamname = 'Example teamname';

@@ -21,5 +21,6 @@ window.onload = function () {
 
     function buildList() {
         console.log(pokemons);
+
     }
 }
